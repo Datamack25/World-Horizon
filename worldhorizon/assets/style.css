@@ -21,7 +21,7 @@ h1, h2, h3, h4, .wh-title, .wh-kpi .v {
   font-family: 'Archivo', 'Source Sans 3', sans-serif !important;
   font-stretch: 82%;
   letter-spacing: -0.01em;
-  color: var(--ink);
+  color: inherit;   /* suit le thème clair ou sombre de Streamlit */
 }
 h1 { font-weight: 800 !important; }
 h2, h3 { font-weight: 700 !important; }
@@ -35,11 +35,13 @@ h2, h3 { font-weight: 700 !important; }
 /* En-tête de page */
 .wh-hero { margin: 0 0 0.6rem; }
 .wh-hero .wh-title { font-size: clamp(2.1rem, 4.2vw, 3.4rem); font-weight: 800; line-height: 1.02; margin: 0; }
-.wh-hero p { color: var(--ink-2); font-size: 1.06rem; max-width: 64ch; margin: 0.35rem 0 0; }
+.wh-hero p { color: inherit; opacity: 0.78; font-size: 1.06rem; max-width: 64ch; margin: 0.35rem 0 0; }
 
 /* Chiffres clés : la règle de gauche porte la couleur du score (information, pas décoration) */
 .wh-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem; margin: 0.6rem 0 1rem; }
-.wh-kpi { background: #fff; border-left: 5px solid var(--rule); padding: 0.65rem 0.85rem; border-radius: 2px 6px 6px 2px; }
+/* Cartes à fond blanc : couleur d'encre forcée, sinon le thème sombre rend le texte blanc sur blanc */
+.wh-kpi { background: #fff; color: var(--ink); border-left: 5px solid var(--rule); padding: 0.65rem 0.85rem; border-radius: 2px 6px 6px 2px; }
+.wh-kpi .v { color: var(--ink); }
 .wh-kpi .v { font-size: 2rem; font-weight: 800; line-height: 1.05; }
 .wh-kpi .l { color: var(--ink-2); font-size: 0.86rem; }
 .wh-kpi.vert { border-left-color: var(--vert); } .wh-kpi.vert .v { color: var(--vert); }
@@ -48,7 +50,7 @@ h2, h3 { font-weight: 700 !important; }
 .wh-kpi.gris { border-left-color: var(--gris); }
 
 /* Légende de carte */
-.wh-legend { display: flex; flex-wrap: wrap; gap: 1.1rem; color: var(--ink-2); font-size: 0.92rem; margin: 0.2rem 0 0.4rem; }
+.wh-legend { display: flex; flex-wrap: wrap; gap: 1.1rem; color: inherit; opacity: 0.85; font-size: 0.92rem; margin: 0.2rem 0 0.4rem; }
 .wh-legend span::before { content: ""; display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; margin-right: 0.4rem; vertical-align: -1px; background: var(--c); }
 
 /* Texte d'analyse */
@@ -59,11 +61,14 @@ h2, h3 { font-weight: 700 !important; }
 .wh-pill.rouge { background: var(--rouge); } .wh-pill.gris { background: var(--gris); }
 
 .wh-swot { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
-.wh-swot div { background: #fff; padding: 0.7rem 0.9rem; border-top: 3px solid var(--c); }
-.wh-swot h4 { margin: 0 0 0.3rem; font-size: 1.02rem; }
+/* « > div » : seules les 4 cases, pas les blocs internes que Streamlit ajoute autour des titres */
+.wh-swot > div { background: #fff; padding: 0.7rem 0.9rem; border-top: 3px solid var(--c); }
+.wh-swot > div, .wh-swot > div * { color: var(--ink) !important; }
+.wh-swot div div { border: 0; padding: 0; background: transparent; }
+.wh-swot h4 { margin: 0 0 0.3rem; padding: 0 !important; font-size: 1.02rem; }
 .wh-swot ul { margin: 0; padding-left: 1.1rem; font-size: 0.94rem; }
 
-.wh-note { color: var(--ink-2); font-size: 0.88rem; }
+.wh-note { color: inherit; opacity: 0.75; font-size: 0.88rem; }
 a { color: var(--ocean); }
 
 @media (max-width: 640px) {

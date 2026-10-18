@@ -1,0 +1,252 @@
+iso3,iso2,isonum,name_fr,name_en,region,region_fr,income,income_fr,continent_fr,capital,currency,latitude,longitude,territoire
+AFG,AF,4,Afghanistan,Afghanistan,mea,Moyen-Orient & Afrique du Nord,lic,Faible revenu,Asie,Kabul,Afghan afghani,33.0,66.0,False
+ZAF,ZA,710,Afrique du Sud,South Africa,ssf,Afrique subsaharienne,umc,Revenu intermédiaire supérieur,Afrique,Pretoria,South African rand,-29.0,24.0,False
+ALB,AL,8,Albanie,Albania,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Tirana,Albanian lek,41.0,20.0,False
+DZA,DZ,12,Algérie,Algeria,mea,Moyen-Orient & Afrique du Nord,umc,Revenu intermédiaire supérieur,Afrique,Algiers,Algerian dinar,28.0,3.0,False
+DEU,DE,276,Allemagne,Germany,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Berlin,Euro,51.5,10.5,False
+AND,AD,20,Andorre,Andorra,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Andorra la Vella,Euro,42.50779,1.52109,False
+AGO,AO,24,Angola,Angola,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Luanda,Angolan kwanza,-12.5,18.5,False
+AIA,AI,660,Anguilla,Anguilla,lcn,Amérique latine & Caraïbes,,n.d.,Amérique latine & Caraïbes,The Valley,,18.21667,-63.05,True
+ATA,AQ,10,Antarctique,Antarctica,ecs,Europe & Asie centrale,,n.d.,Antarctique,,,-90.0,0.0,True
+ATG,AG,28,Antigua-et-Barbuda,Antigua and Barbuda,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,St. John's,East Caribbean dollar,17.05,-61.8,False
+SAU,SA,682,Arabie saoudite,Saudi Arabia,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Asie,Riyadh,Saudi Arabian riyal,25.0,45.0,False
+ARG,AR,32,Argentine,Argentina,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique du Sud,Buenos Aires,Argentine peso,-34.0,-64.0,False
+ARM,AM,51,Arménie,Armenia,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Asie,Yerevan,Armenian dram,40.25,45.0,False
+ABW,AW,533,Aruba,Aruba,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Oranjestad,Aruban florin,12.5,-69.96667,True
+AUS,AU,36,Australie,Australia,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Canberra,Australian dollar,-25.0,135.0,False
+AUT,AT,40,Autriche,Austria,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Vienna,Euro,47.33333,13.33333,False
+AZE,AZ,31,Azerbaïdjan,Azerbaijan,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Asie,Baku,New Azeri manat,40.5,47.5,False
+BHS,BS,44,Bahamas,"Bahamas, The",lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Nassau,Bahamian dollar,25.04082,-77.37122,False
+BHR,BH,48,Bahreïn,Bahrain,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Asie,Manama,Bahraini dinar,26.03333,50.55,False
+BGD,BD,50,Bangladesh,Bangladesh,sas,Asie du Sud,lmc,Revenu intermédiaire inférieur,Asie,Dhaka,Bangladeshi taka,24.0,90.0,False
+BRB,BB,52,Barbade,Barbados,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Bridgetown,Barbados dollar,13.16667,-59.53333,False
+BEL,BE,56,Belgique,Belgium,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Brussels,Euro,50.75,4.5,False
+BLZ,BZ,84,Belize,Belize,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Belmopan,Belize dollar,17.49952,-88.19756,False
+BMU,BM,60,Bermudes,Bermuda,nac,Amérique du Nord,hic,Revenu élevé,Amérique du Nord,Hamilton,Bermuda dollar,32.2949,-64.78303,True
+BTN,BT,64,Bhoutan,Bhutan,sas,Asie du Sud,lmc,Revenu intermédiaire inférieur,Asie,Thimphu,Bhutanese ngultrum,27.5,90.5,False
+BOL,BO,68,Bolivie,Bolivia,lcn,Amérique latine & Caraïbes,lmc,Revenu intermédiaire inférieur,Amérique du Sud,Sucre,Bolivian Boliviano,-17.0,-65.0,False
+BIH,BA,70,Bosnie-Herzégovine,Bosnia and Herzegovina,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Sarajevo,Bosnia and Herzegovina convertible mark,44.25,17.83333,False
+BWA,BW,72,Botswana,Botswana,ssf,Afrique subsaharienne,umc,Revenu intermédiaire supérieur,Afrique,Gaborone,Botswana pula,-22.0,24.0,False
+BRN,BN,96,Brunei,Brunei Darussalam,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Asie,Bandar Seri Begawan,Brunei dollar,4.5,114.66667,False
+BRA,BR,76,Brésil,Brazil,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique du Sud,Brasilia,Brazilian real,-10.0,-55.0,False
+BGR,BG,100,Bulgarie,Bulgaria,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Sofia,Euro,42.66667,25.25,False
+BFA,BF,854,Burkina Faso,Burkina Faso,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Ouagadougou,West African CFA franc,12.5,-1.66667,False
+BDI,BI,108,Burundi,Burundi,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Gitega,Burundi franc,-3.5,30.0,False
+BLR,BY,112,Bélarus,Belarus,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Minsk,Belarusian rubel,53.0,28.0,False
+BEN,BJ,204,Bénin,Benin,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Porto-Novo,West African CFA franc,9.5,2.25,False
+KHM,KH,116,Cambodge,Cambodia,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Asie,Phnom Penh,Cambodian riel,13.0,105.0,False
+CMR,CM,120,Cameroun,Cameroon,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Yaounde,Central African CFA franc,6.0,12.5,False
+CAN,CA,124,Canada,Canada,nac,Amérique du Nord,hic,Revenu élevé,Amérique du Nord,Ottawa,Canadian dollar,60.10867,-113.64258,False
+CPV,CV,132,Cap-Vert,Cabo Verde,ssf,Afrique subsaharienne,umc,Revenu intermédiaire supérieur,Afrique,Praia,Cabo Verde escudo,16.0,-24.0,False
+CAF,CF,140,Centrafrique,Central African Republic,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Bangui,Central African CFA franc,7.0,21.0,False
+CHI,,,Channel Islands,Channel Islands,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe & Asie centrale,,Pound sterling,,,True
+CHL,CL,152,Chili,Chile,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique du Sud,Santiago,Chilean peso,-33.45694,-70.64827,False
+CHN,CN,156,Chine,China,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Asie,Beijing,Chinese yuan,35.0,105.0,False
+CYP,CY,196,Chypre,Cyprus,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Nicosia,Euro,35.0,33.0,False
+COL,CO,170,Colombie,Colombia,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique du Sud,Bogota,Colombian peso,4.0,-73.25,False
+COM,KM,174,Comores,Comoros,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Moroni,Comorian franc,-12.23333,44.44553,False
+COG,CG,178,Congo,"Congo, Rep.",ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Brazzaville,Central African CFA franc,-1.0,15.5,False
+PRK,KP,408,Corée du Nord,"Korea, Dem. People's Rep.",eas,Asie de l'Est & Pacifique,lic,Faible revenu,Asie,Pyongyang,Democratic People's Republic of Korean won,40.0,127.0,False
+KOR,KR,410,Corée du Sud,"Korea, Rep.",eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Asie,Seoul,Korean won,36.5,127.75,False
+CRI,CR,188,Costa Rica,Costa Rica,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,San Jose,Costa Rican colon,10.0,-84.0,False
+HRV,HR,191,Croatie,Croatia,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Zagreb,Euro,45.16667,15.5,False
+CUB,CU,192,Cuba,Cuba,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Havana,Cuban peso,22.0,-79.5,False
+CUW,CW,531,Curaçao,Curaçao,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes, Willemstad,Netherlands Antillean guilder,,,True
+CSK,,,Czechoslovakia (former),Czechoslovakia (former),,Autre,,n.d.,Autre,,,,,True
+CIV,CI,384,Côte d'Ivoire,Côte d'Ivoire,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Yamoussoukro,West African CFA franc,8.0,-5.5,False
+DNK,DK,208,Danemark,Denmark,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Copenhagen,Danish krone,56.0,10.0,False
+DJI,DJ,262,Djibouti,Djibouti,mea,Moyen-Orient & Afrique du Nord,lmc,Revenu intermédiaire inférieur,Afrique,Djibouti,Djibouti franc,11.58901,43.14503,False
+DMA,DM,212,Dominique,Dominica,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Roseau,East Caribbean dollar,15.5,-61.33333,False
+SLV,SV,222,El Salvador,El Salvador,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,San Salvador,U.S. dollar,13.83333,-88.91667,False
+ESP,ES,724,Espagne,Spain,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Madrid,Euro,40.0,-4.0,False
+EST,EE,233,Estonie,Estonia,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Tallinn,Euro,59.0,26.0,False
+SWZ,SZ,748,Eswatini,Eswatini,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Mbabane,Swazi lilangeni,-26.5,31.5,False
+FJI,FJ,242,Fidji,Fiji,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Océanie,Suva,Fijian dollar,-18.0,178.0,False
+FIN,FI,246,Finlande,Finland,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Helsinki,Euro,64.0,26.0,False
+FRA,FR,250,France,France,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Paris,Euro,46.0,2.0,False
+GAB,GA,266,Gabon,Gabon,ssf,Afrique subsaharienne,umc,Revenu intermédiaire supérieur,Afrique,Libreville,Central African CFA franc,-1.0,11.75,False
+GMB,GM,270,Gambie,"Gambia, The",ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Banjul,Gambian dalasi,13.5,-15.5,False
+GHA,GH,288,Ghana,Ghana,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Accra,New Ghanaian cedi,8.1,-1.2,False
+GIB,GI,292,Gibraltar,Gibraltar,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Gibraltar,Gibraltar pound,36.14474,-5.35257,True
+GRD,GD,308,Grenade,Grenada,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,St. George's,East Caribbean dollar,12.11667,-61.66667,False
+GRL,GL,304,Groenland,Greenland,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe & Asie centrale,Nuuk,Danish krone,72.0,-40.0,True
+GRC,GR,300,Grèce,Greece,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Athens,Euro,39.0,22.0,False
+GLP,GP,312,Guadeloupe,Guadeloupe,lcn,Amérique latine & Caraïbes,,n.d.,Amérique latine & Caraïbes,Basse-Terre,,16.25,-61.58333,True
+GUM,GU,316,Guam,Guam,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Hagatna,U.S. dollar,13.47861,144.81834,True
+GTM,GT,320,Guatemala,Guatemala,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Guatemala City,Guatemalan quetzal,14.64072,-90.51327,False
+GBG,GG,,Guernsey,Guernsey,ecs,Europe & Asie centrale,,n.d.,Europe & Asie centrale,,,49.45474,-2.57629,True
+GIN,GN,324,Guinée,Guinea,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Conakry,Guinean franc,10.83333,-10.66667,False
+GNQ,GQ,226,Guinée équatoriale,Equatorial Guinea,ssf,Afrique subsaharienne,umc,Revenu intermédiaire supérieur,Afrique,Ciudad de la Paz,Central African CFA franc,1.7,10.5,False
+GNB,GW,624,Guinée-Bissau,Guinea-Bissau,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Bissau,West African CFA franc,12.0,-15.0,False
+GUY,GY,328,Guyana,Guyana,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique du Sud,Georgetown,Guyana dollar,5.0,-59.0,False
+GUF,GF,254,Guyane française,French Guiana,lcn,Amérique latine & Caraïbes,,n.d.,Amérique du Sud,Cayenne,,4.0,-53.0,True
+GEO,GE,268,Géorgie,Georgia,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Asie,Tbilisi,Georgian lari,41.99998,43.4999,False
+HTI,HT,332,Haïti,Haiti,lcn,Amérique latine & Caraïbes,lmc,Revenu intermédiaire inférieur,Amérique latine & Caraïbes,Port-au-Prince,Haitian gourde,19.0,-72.41667,False
+HOS,VA,,Holy See,Holy See,ecs,Europe & Asie centrale,,n.d.,Europe & Asie centrale,,,41.90236,12.45332,True
+HND,HN,340,Honduras,Honduras,lcn,Amérique latine & Caraïbes,lmc,Revenu intermédiaire inférieur,Amérique latine & Caraïbes,Tegucigalpa,Honduran lempira,15.0,-86.5,False
+HKG,HK,344,Hong Kong,"Hong Kong SAR, China",eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Asie,Hong Kong,Hong Kong dollar,22.28552,114.15769,True
+HUN,HU,348,Hongrie,Hungary,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Budapest,Hungarian forint,47.0,20.0,False
+IND,IN,356,Inde,India,sas,Asie du Sud,lmc,Revenu intermédiaire inférieur,Asie,New Delhi,Indian rupee,22.0,79.0,False
+IDN,ID,360,Indonésie,Indonesia,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Asie,Jakarta,Indonesian rupiah,-5.0,120.0,False
+IRN,IR,364,Iran,"Iran, Islamic Rep.",mea,Moyen-Orient & Afrique du Nord,umc,Revenu intermédiaire supérieur,Asie,Tehran,Iranian rial,32.0,53.0,False
+IRQ,IQ,368,Iraq,Iraq,mea,Moyen-Orient & Afrique du Nord,umc,Revenu intermédiaire supérieur,Asie,Baghdad,Iraqi dinar,33.0,44.0,False
+IRL,IE,372,Irlande,Ireland,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Dublin,Euro,53.0,-8.0,False
+ISL,IS,352,Islande,Iceland,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Reykjavik,Iceland krona,65.0,-18.0,False
+GBM,IM,,Isle of Man,Isle of Man,ecs,Europe & Asie centrale,,n.d.,Europe & Asie centrale,,,54.15,-4.48333,True
+ISR,IL,376,Israël,Israel,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Asie,Jerusalem,Israeli new shekel,31.5,34.75,False
+ITA,IT,380,Italie,Italy,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Rome,Euro,42.83333,12.83333,False
+JAM,JM,388,Jamaïque,Jamaica,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Kingston,Jamaican dollar,18.16667,-77.25,False
+JPN,JP,392,Japon,Japan,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Asie,Tokyo,Japanese yen,35.68536,139.75309,False
+JEY,JE,832,Jersey,Jersey,ecs,Europe & Asie centrale,,n.d.,Europe,Saint Helier,,49.21667,-2.11667,True
+JOR,JO,400,Jordanie,Jordan,mea,Moyen-Orient & Afrique du Nord,umc,Revenu intermédiaire supérieur,Asie,Amman,Jordanian dinar,31.0,36.0,False
+KAZ,KZ,398,Kazakhstan,Kazakhstan,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Asie,Nur-Sultan,Kazakh tenge,48.0,68.0,False
+KEN,KE,404,Kenya,Kenya,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Nairobi,Kenyan shilling,1.0,38.0,False
+KGZ,KG,417,Kirghizistan,Kyrgyz Republic,ecs,Europe & Asie centrale,lmc,Revenu intermédiaire inférieur,Asie,Bishkek,Kyrgyz som,41.5,75.0,False
+KIR,KI,296,Kiribati,Kiribati,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Océanie,Tarawa,Australian dollar,1.421,172.984,False
+KOS,XK,,Kosovo,Kosovo,ecs,Europe & Asie centrale,,n.d.,Europe & Asie centrale,,,,,True
+XKX,XK,,Kosovo,Kosovo,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,,Euro,,,False
+KWT,KW,414,Koweït,Kuwait,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Asie,Kuwait City,Kuwaiti dinar,29.36972,47.97833,False
+LAO,LA,418,Laos,Lao PDR,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Asie,Vientiane,Lao kip,18.0,105.0,False
+LSO,LS,426,Lesotho,Lesotho,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Maseru,Lesotho loti,-29.5,28.25,False
+LVA,LV,428,Lettonie,Latvia,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Riga,Euro,57.0,25.0,False
+LBN,LB,422,Liban,Lebanon,mea,Moyen-Orient & Afrique du Nord,lmc,Revenu intermédiaire inférieur,Asie,Beirut,Lebanese pound,33.83333,35.83333,False
+LBY,LY,434,Libye,Libya,mea,Moyen-Orient & Afrique du Nord,umc,Revenu intermédiaire supérieur,Afrique,Tripoli,Libyan dinar,28.0,17.0,False
+LBR,LR,430,Libéria,Liberia,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Monrovia,Liberian dollar,6.5,-9.5,False
+LIE,LI,438,Liechtenstein,Liechtenstein,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Vaduz,Swiss franc,47.16667,9.53333,False
+LTU,LT,440,Lituanie,Lithuania,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Vilnius,Euro,55.41667,24.0,False
+LUX,LU,442,Luxembourg,Luxembourg,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Luxembourg,Euro,49.61167,6.13,False
+MAC,MO,446,Macao,"Macao SAR, China",eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Asie,Macao,Macao pataca,22.20056,113.54611,True
+MKD,MK,807,Macédoine du Nord,North Macedonia,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Skopje,Macedonian denar,41.66667,21.75,False
+MDG,MG,450,Madagascar,Madagascar,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Antananarivo,Malagasy ariary,-20.0,47.0,False
+MYS,MY,458,Malaisie,Malaysia,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Asie,Kuala Lumpur,Malaysian ringgit,2.5,112.5,False
+MWI,MW,454,Malawi,Malawi,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Lilongwe,Malawi kwacha,-13.5,34.0,False
+MDV,MV,462,Maldives,Maldives,sas,Asie du Sud,umc,Revenu intermédiaire supérieur,Asie,Male,Maldivian rufiyaa,3.2,73.0,False
+MLI,ML,466,Mali,Mali,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Bamako,West African CFA franc,18.0,-2.0,False
+MLT,MT,470,Malte,Malta,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Europe,Valletta,Euro,35.91667,14.43333,False
+MAR,MA,504,Maroc,Morocco,mea,Moyen-Orient & Afrique du Nord,lmc,Revenu intermédiaire inférieur,Afrique,Rabat,Moroccan dirham,32.0,-6.0,False
+MTQ,MQ,474,Martinique,Martinique,lcn,Amérique latine & Caraïbes,,n.d.,Amérique latine & Caraïbes,Fort-de-France,,14.66667,-61.0,True
+MUS,MU,480,Maurice,Mauritius,ssf,Afrique subsaharienne,umc,Revenu intermédiaire supérieur,Afrique,Port Louis,Mauritian rupee,-20.3,57.58333,False
+MRT,MR,478,Mauritanie,Mauritania,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Nouakchott,Mauritanian ouguiya,20.25,-10.5,False
+MYT,YT,175,Mayotte,Mayotte,ssf,Afrique subsaharienne,,n.d.,Afrique,Mamoudzou,,-12.83333,45.16667,True
+MEX,MX,484,Mexique,Mexico,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Mexico City,Mexican peso,19.42847,-99.12766,False
+FSM,FM,583,Micronésie,"Micronesia, Fed. Sts.",eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Océanie,Palikir,U.S. dollar,6.924,158.162,False
+MDA,MD,498,Moldavie,Moldova,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Chisinau,Moldovan leu,47.25,28.58333,False
+MCO,MC,492,Monaco,Monaco,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Monaco,Euro,43.73333,7.41667,False
+MNG,MN,496,Mongolie,Mongolia,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Asie,Ulaanbaatar,Mongolian tugrik,46.0,105.0,False
+MSR,MS,500,Montserrat,Montserrat,lcn,Amérique latine & Caraïbes,,n.d.,Amérique latine & Caraïbes,Plymouth,,16.75,-62.2,True
+MNE,ME,499,Monténégro,Montenegro,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Podgorica,Euro,42.75,19.25,False
+MOZ,MZ,508,Mozambique,Mozambique,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Maputo,New Mozambican metical,-18.25,35.0,False
+MMR,MM,104,Myanmar,Myanmar,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Asie,Nay Pyi Taw,Myanmar kyat,21.0,96.0,False
+NAM,,516,Namibie,Namibia,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Windhoek,Namibian dollar,-22.0,17.0,False
+NRU,NR,520,Nauru,Naoero,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Yaren,Australian dollar,-0.517,166.933,False
+ANT,,,Netherlands Antilles (former),Netherlands Antilles (former),lcn,Amérique latine & Caraïbes,,n.d.,Amérique latine & Caraïbes,,,,,True
+NIC,NI,558,Nicaragua,Nicaragua,lcn,Amérique latine & Caraïbes,lmc,Revenu intermédiaire inférieur,Amérique latine & Caraïbes,Managua,Nicaraguan gold cordoba,13.0,-85.0,False
+NER,NE,562,Niger,Niger,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Niamey,West African CFA franc,18.0,9.0,False
+NGA,NG,566,Nigéria,Nigeria,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Abuja,Nigerian naira,10.0,8.0,False
+NIU,NU,570,Nioué,Niue,eas,Asie de l'Est & Pacifique,,n.d.,Océanie,Alofi,,-19.03333,-169.86667,True
+NOR,NO,578,Norvège,Norway,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Oslo,Norwegian krone,62.0,10.0,False
+NCL,NC,540,Nouvelle-Calédonie,New Caledonia,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Noumea,CFP franc,-21.5,165.5,True
+NZL,NZ,554,Nouvelle-Zélande,New Zealand,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Wellington,New Zealand dollar,-42.0,174.0,False
+NPL,NP,524,Népal,Nepal,sas,Asie du Sud,lmc,Revenu intermédiaire inférieur,Asie,Kathmandu,Nepalese rupee,28.0,84.0,False
+OMN,OM,512,Oman,Oman,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Asie,Muscat,Omani rial,21.0,57.0,False
+UGA,UG,800,Ouganda,Uganda,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Kampala,Ugandan shilling,1.25,32.5,False
+UZB,UZ,860,Ouzbékistan,Uzbekistan,ecs,Europe & Asie centrale,lmc,Revenu intermédiaire inférieur,Asie,Tashkent,Uzbek som,41.66667,63.83333,False
+PAK,PK,586,Pakistan,Pakistan,mea,Moyen-Orient & Afrique du Nord,lmc,Revenu intermédiaire inférieur,Asie,Islamabad,Pakistani rupee,30.0,70.0,False
+PLW,PW,585,Palaos,Palau,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Melekeok,U.S. dollar,7.503,134.621,False
+PSE,PS,275,Palestine,West Bank and Gaza,mea,Moyen-Orient & Afrique du Nord,lmc,Revenu intermédiaire inférieur,Asie,East Jerusalem,Israeli new shekel,31.92157,35.20329,False
+PAN,PA,591,Panama,Panama,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Panama City,Panamanian balboa,8.9936,-79.51973,False
+PNG,PG,598,Papouasie-Nouvelle-Guinée,Papua New Guinea,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Océanie,Port Moresby,Papua New Guinea kina,-6.0,147.0,False
+PRY,PY,600,Paraguay,Paraguay,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique du Sud,Asuncion,Paraguayan guarani,-23.33333,-58.0,False
+NLD,NL,528,Pays-Bas,Netherlands,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Amsterdam,Euro,52.25,5.75,False
+PHL,PH,608,Philippines,Philippines,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Asie,Manila,Philippine peso,13.0,122.0,False
+PCN,PN,612,Pitcairn,Pitcairn,eas,Asie de l'Est & Pacifique,,n.d.,Océanie,Adamstown,,-25.06667,-130.1,True
+POL,PL,616,Pologne,Poland,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Warsaw,Polish zloty,52.0,20.0,False
+PYF,PF,258,Polynésie française,French Polynesia,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Papeete,CFP franc,-15.0,-140.0,True
+PRI,PR,630,Porto Rico,Puerto Rico (US),lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,San Juan,U.S. dollar,18.46633,-66.10572,True
+PRT,PT,620,Portugal,Portugal,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Lisbon,Euro,39.6945,-8.13057,False
+PER,PE,604,Pérou,Peru,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique du Sud,Lima,Peruvian new sol,-10.0,-75.25,False
+QAT,QA,634,Qatar,Qatar,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Asie,Doha,Qatari riyal,25.27932,51.52245,False
+COD,CD,180,RD Congo,"Congo, Dem. Rep.",ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Kinshasa,Congolese franc,-2.5,23.5,False
+ROU,RO,642,Roumanie,Romania,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Bucharest,New Romanian leu,46.0,25.0,False
+GBR,GB,826,Royaume-Uni,United Kingdom,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,London,Pound sterling,54.75844,-2.69531,False
+RUS,RU,643,Russie,Russian Federation,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Moscow,Russian ruble,60.0,100.0,False
+RWA,RW,646,Rwanda,Rwanda,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Kigali,Rwandan franc,-2.0,30.0,False
+DOM,DO,214,République dominicaine,Dominican Republic,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Santo Domingo,Dominican peso,19.0,-70.66667,False
+REU,RE,638,Réunion,Reunion,ssf,Afrique subsaharienne,,n.d.,Afrique,Saint-Denis,,-20.88231,55.4504,True
+ESH,EH,732,Sahara occidental,Western Sahara,ssf,Afrique subsaharienne,,n.d.,Afrique,El-Aaiun,,24.49215,-12.65625,True
+KNA,KN,659,Saint-Kitts-et-Nevis,St. Kitts and Nevis,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Basseterre,East Caribbean dollar,17.33333,-62.75,False
+SMR,SM,674,Saint-Marin,San Marino,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,San Marino,Euro,43.93667,12.44639,False
+MAF,MF,663,Saint-Martin (partie française),St. Martin (French part),lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Marigot,Euro,,,True
+SPM,PM,666,Saint-Pierre-et-Miquelon,St.-Pierre-et-Miquelon,lcn,Amérique latine & Caraïbes,,n.d.,Amérique latine & Caraïbes,Saint-Pierre,,46.83333,-56.33333,True
+VCT,VC,670,Saint-Vincent-et-les-Grenadines,St. Vincent and the Grenadines,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Kingstown,East Caribbean dollar,13.08333,-61.2,False
+SHN,SH,654,Sainte-Hélène,St. Helena,ssf,Afrique subsaharienne,,n.d.,Afrique,Jamestown,,-15.95,-5.7,True
+LCA,LC,662,Sainte-Lucie,St. Lucia,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique latine & Caraïbes,Castries,East Caribbean dollar,13.88333,-60.96667,False
+WSM,WS,882,Samoa,Samoa,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Océanie,Apia,Samoan tala,-13.8,-172.13333,False
+ASM,AS,16,Samoa américaines,American Samoa,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Pago Pago,U.S. dollar,-11.056,-171.082,True
+STP,ST,678,Sao Tomé-et-Principe,São Tomé and Principe,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Sao Tome,São Tomé and Principe dobra,1.0,7.0,False
+SCG,,,Serbia and Montenegro,Serbia and Montenegro,ecs,Europe & Asie centrale,,n.d.,Europe & Asie centrale,,,,,True
+YUG,,,Serbia and Montenegro (former),Serbia and Montenegro (former),ecs,Europe & Asie centrale,,n.d.,Europe & Asie centrale,,,,,True
+SRB,RS,688,Serbie,Serbia,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Belgrade,New Serbian dinar,44.81892,20.45998,False
+SYC,SC,690,Seychelles,Seychelles,ssf,Afrique subsaharienne,hic,Revenu élevé,Afrique,Victoria,Seychelles rupee,-4.58333,55.66667,False
+SLE,SL,694,Sierra Leone,Sierra Leone,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Freetown,Sierra Leonean leone,8.5,-11.5,False
+SGP,SG,702,Singapour,Singapore,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Asie,Singapore,Singapore dollar,1.28967,103.85007,False
+SXM,SX,534,Sint Maarten,Sint Maarten (Dutch part),lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Philipsburg,Netherlands Antillean guilder,18.04167,-63.06667,True
+SVK,SK,703,Slovaquie,Slovak Republic,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Bratislava,Euro,48.66667,19.5,False
+SVN,SI,705,Slovénie,Slovenia,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Ljubljana,Euro,46.08333,15.0,False
+SOM,SO,706,Somalie,"Somalia, Fed. Rep.",ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Mogadishu,Somali shilling,6.0,48.0,False
+SDN,SD,729,Soudan,Sudan,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Khartoum,Sudanese pound,16.0,30.0,False
+SSD,SS,728,Soudan du Sud,South Sudan,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Juba,South Sudanese Pound,7.5,30.0,False
+LKA,LK,144,Sri Lanka,Sri Lanka,sas,Asie du Sud,umc,Revenu intermédiaire supérieur,Asie,Colombo,Sri Lankan rupee,7.75,80.75,False
+CHE,CH,756,Suisse,Switzerland,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Bern,Swiss franc,47.00016,8.01427,False
+SUR,SR,740,Suriname,Suriname,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique du Sud,Paramaribo,Suriname dollar,4.0,-56.0,False
+SWE,SE,752,Suède,Sweden,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Stockholm,Swedish krona,62.0,15.0,False
+SYR,SY,760,Syrie,Syrian Arab Republic,mea,Moyen-Orient & Afrique du Nord,lic,Faible revenu,Asie,Damascus,Syrian pound,35.0,38.0,False
+SEN,SN,686,Sénégal,Senegal,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Dakar,West African CFA franc,14.5,-14.25,False
+TJK,TJ,762,Tadjikistan,Tajikistan,ecs,Europe & Asie centrale,lmc,Revenu intermédiaire inférieur,Asie,Dushanbe,Tajik somoni,39.0,71.0,False
+TZA,TZ,834,Tanzanie,Tanzania,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Dodoma,Tanzanian shilling,-6.0,35.0,False
+TWN,TW,158,Taïwan,"Taiwan, China",eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Asie,Taipei,,24.0,121.0,False
+TCD,TD,148,Tchad,Chad,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,N'Djamena,Central African CFA franc,15.0,19.0,False
+CZE,CZ,203,Tchéquie,Czechia,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Prague,Czech koruna,49.75,15.0,False
+IOT,IO,86,Territoire britannique de l'océan Indien,British Indian Ocean Territory,eas,Asie de l'Est & Pacifique,,n.d.,Asie,Diego Garcia,,-6.0,72.0,True
+THA,TH,764,Thaïlande,Thailand,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Asie,Bangkok,Thai baht,15.5,101.0,False
+TLS,TL,626,Timor-Leste,Timor-Leste,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Océanie,Dili,U.S. dollar,-8.83333,125.75,False
+TGO,TG,768,Togo,Togo,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Lome,West African CFA franc,8.66667,1.08333,False
+TKL,TK,772,Tokélaou,Tokelau,eas,Asie de l'Est & Pacifique,,n.d.,Océanie,,,-9.167,-171.83,True
+TON,TO,776,Tonga,Tonga,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Océanie,Nuku'alofa,Tongan pa'anga,-20.0,-175.0,False
+TTO,TT,780,Trinité-et-Tobago,Trinidad and Tobago,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Port of Spain,Trinidad and Tobago dollar,11.0,-61.0,False
+TUN,TN,788,Tunisie,Tunisia,mea,Moyen-Orient & Afrique du Nord,lmc,Revenu intermédiaire inférieur,Afrique,Tunis,Tunisian dinar,34.0,9.0,False
+TKM,TM,795,Turkménistan,Turkmenistan,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Asie,Ashgabat,New Turkmen manat,39.75,59.66667,False
+TUR,TR,792,Turquie,Türkiye,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Asie,Ankara,New Turkish lira,39.0,35.0,False
+TUV,TV,798,Tuvalu,Tuvalu,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Océanie,Funafuti,Australian dollar,-8.51719,179.14478,False
+SUN,,,USSR (former),USSR (former),,Autre,,n.d.,Autre,,,,,True
+UKR,UA,804,Ukraine,Ukraine,ecs,Europe & Asie centrale,umc,Revenu intermédiaire supérieur,Europe,Kyiv,Ukrainian hryvnia,49.0,32.0,False
+URY,UY,858,Uruguay,Uruguay,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique du Sud,Montevideo,Uruguayan peso,-33.0,-56.0,False
+VUT,VU,548,Vanuatu,Vanuatu,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Océanie,Port Vila,Vanuatu vatu,-16.0,167.0,False
+VEN,VE,862,Venezuela,"Venezuela, RB",lcn,Amérique latine & Caraïbes,lmc,Revenu intermédiaire inférieur,Amérique du Sud,Caracas,Venezuelan bolivar fuerte,8.0,-66.0,False
+VNM,VN,704,Viêt Nam,Viet Nam,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Asie,Hanoi,Vietnamese dong,16.16667,107.83333,False
+YEM,YE,887,Yémen,"Yemen, Rep.",mea,Moyen-Orient & Afrique du Nord,lic,Faible revenu,Asie,Sanaa,Yemeni rial,15.5,47.5,False
+ZMB,ZM,894,Zambie,Zambia,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Lusaka,New Zambian kwacha,-14.33333,28.5,False
+ZWE,ZW,716,Zimbabwe,Zimbabwe,ssf,Afrique subsaharienne,lmc,Revenu intermédiaire inférieur,Afrique,Harare,Zimbabwean Zimbabwe Gold,-19.0,29.75,False
+EGY,EG,818,Égypte,"Egypt, Arab Rep.",mea,Moyen-Orient & Afrique du Nord,lmc,Revenu intermédiaire inférieur,Afrique,Cairo,Egyptian pound,27.0,30.0,False
+ARE,AE,784,Émirats arabes unis,United Arab Emirates,mea,Moyen-Orient & Afrique du Nord,hic,Revenu élevé,Asie,Abu Dhabi,U.A.E. dirham,23.75,54.5,False
+ECU,EC,218,Équateur,Ecuador,lcn,Amérique latine & Caraïbes,umc,Revenu intermédiaire supérieur,Amérique du Sud,Quito,U.S. dollar,-1.25,-78.25,False
+ERI,ER,232,Érythrée,Eritrea,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Asmara,Eritrean nakfa,15.0,39.0,False
+USA,US,840,États-Unis,United States,nac,Amérique du Nord,hic,Revenu élevé,Amérique du Nord,Washington,U.S. dollar,39.76,-98.5,False
+ETH,ET,231,Éthiopie,Ethiopia,ssf,Afrique subsaharienne,lic,Faible revenu,Afrique,Addis Ababa,Ethiopian birr,9.0,39.5,False
+CXR,CX,162,Île Christmas,Christmas Island,eas,Asie de l'Est & Pacifique,,n.d.,Océanie,Flying Fish Cove,,-10.5,105.66667,True
+NFK,NF,574,Île Norfolk,Norfolk Island,eas,Asie de l'Est & Pacifique,,n.d.,Océanie,Kingston,,-29.03333,167.95,True
+IMN,IM,833,Île de Man,Isle of Man,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Douglas,Pound sterling,,,True
+CYM,KY,136,Îles Caïmanes,Cayman Islands,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,George Town,Cayman Islands dollar,19.5,-80.66667,True
+COK,CK,184,Îles Cook,Cook Is,eas,Asie de l'Est & Pacifique,,n.d.,Océanie,Avarua,,-21.24842,-159.78516,True
+FLK,FK,238,Îles Falkland (Malvinas),Falkland Is (Malvinas),lcn,Amérique latine & Caraïbes,,n.d.,Amérique du Sud,Stanley,,-51.75,-59.16667,True
+FRO,FO,234,Îles Féroé,Faroe Islands,ecs,Europe & Asie centrale,hic,Revenu élevé,Europe,Torshavn,Danish krone,62.0,-7.0,True
+MNP,MP,580,Îles Mariannes du Nord,Northern Mariana Islands,eas,Asie de l'Est & Pacifique,hic,Revenu élevé,Océanie,Saipan,U.S. dollar,15.214,145.756,True
+MHL,MH,584,Îles Marshall,Marshall Islands,eas,Asie de l'Est & Pacifique,umc,Revenu intermédiaire supérieur,Océanie,Majuro,U.S. dollar,7.113,171.236,False
+SLB,SB,90,Îles Salomon,Solomon Islands,eas,Asie de l'Est & Pacifique,lmc,Revenu intermédiaire inférieur,Océanie,Honiara,Solomon Islands dollar,-8.0,159.0,False
+SJM,SJ,744,Îles Svalbard-et-Jan Mayen,Svalbard,ecs,Europe & Asie centrale,,n.d.,Europe,Longyearbyen,,78.0,20.0,True
+TCA,TC,796,Îles Turques-et-Caïques,Turks and Caicos Islands,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Cockburn Town,U.S. dollar,21.73333,-71.58333,True
+VIR,VI,850,Îles Vierges américaines,Virgin Islands (US),lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Charlotte Amalie,U.S. dollar,18.34829,-64.98348,True
+VGB,VG,92,Îles Vierges britanniques,British Virgin Islands,lcn,Amérique latine & Caraïbes,hic,Revenu élevé,Amérique latine & Caraïbes,Road Town,U.S. dollar,18.5,-64.5,True
+WLF,WF,876,Îles Wallis-et-Futuna,Wallis et Futuna,eas,Asie de l'Est & Pacifique,,n.d.,Océanie,Mata Utu,,-13.3,-176.2,True
+CCK,CC,166,Îles des Cocos (Keeling),Cocos Island,eas,Asie de l'Est & Pacifique,,n.d.,Asie,West Island,,-12.1642,96.87332,True
+ALA,AX,248,Îles d’Åland,Åland,ecs,Europe & Asie centrale,,n.d.,Europe,Mariehamn,,60.25,20.0,True

@@ -1,0 +1,75 @@
+/* WorldHorizon — identité « atlas » : encre marine sur papier minéral, couleurs de carte réservées au sens. */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600;700&display=swap');
+
+:root {
+  --paper: #F3F5F2;
+  --paper-2: #E6EBE7;
+  --ink: #172A3A;
+  --ink-2: #4A5D6E;
+  --ocean: #1F5C7A;
+  --vert: #2E8B57;
+  --orange: #E0952B;
+  --rouge: #C8463D;
+  --gris: #8A939E;
+  --rule: #CDD6D1;
+}
+
+html, body, [class*="css"], .stMarkdown, p, li, label, input, textarea, select {
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+}
+h1, h2, h3, h4, .wh-title, .wh-kpi .v {
+  font-family: 'Archivo', 'Source Sans 3', sans-serif !important;
+  font-stretch: 82%;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+h1 { font-weight: 800 !important; }
+h2, h3 { font-weight: 700 !important; }
+
+.block-container { padding-top: 1.6rem; max-width: 1320px; }
+[data-testid="stSidebar"] { background: var(--ink); }
+[data-testid="stSidebar"] * { color: #E4EBEF; }
+[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] > div { background: #22384B; border-color: #35506A; }
+[data-testid="stSidebar"] button { border-color: #4B6A86 !important; }
+
+/* En-tête de page */
+.wh-hero { margin: 0 0 0.6rem; }
+.wh-hero .wh-title { font-size: clamp(2.1rem, 4.2vw, 3.4rem); font-weight: 800; line-height: 1.02; margin: 0; }
+.wh-hero p { color: var(--ink-2); font-size: 1.06rem; max-width: 64ch; margin: 0.35rem 0 0; }
+
+/* Chiffres clés : la règle de gauche porte la couleur du score (information, pas décoration) */
+.wh-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem; margin: 0.6rem 0 1rem; }
+.wh-kpi { background: #fff; border-left: 5px solid var(--rule); padding: 0.65rem 0.85rem; border-radius: 2px 6px 6px 2px; }
+.wh-kpi .v { font-size: 2rem; font-weight: 800; line-height: 1.05; }
+.wh-kpi .l { color: var(--ink-2); font-size: 0.86rem; }
+.wh-kpi.vert { border-left-color: var(--vert); } .wh-kpi.vert .v { color: var(--vert); }
+.wh-kpi.orange { border-left-color: var(--orange); } .wh-kpi.orange .v { color: #B26F14; }
+.wh-kpi.rouge { border-left-color: var(--rouge); } .wh-kpi.rouge .v { color: var(--rouge); }
+.wh-kpi.gris { border-left-color: var(--gris); }
+
+/* Légende de carte */
+.wh-legend { display: flex; flex-wrap: wrap; gap: 1.1rem; color: var(--ink-2); font-size: 0.92rem; margin: 0.2rem 0 0.4rem; }
+.wh-legend span::before { content: ""; display: inline-block; width: 0.8rem; height: 0.8rem; border-radius: 2px; margin-right: 0.4rem; vertical-align: -1px; background: var(--c); }
+
+/* Texte d'analyse */
+.wh-prose { max-width: 78ch; font-size: 1.02rem; line-height: 1.6; }
+.wh-prose p { margin: 0 0 0.55rem; }
+.wh-pill { display: inline-block; padding: 0.05rem 0.55rem; border-radius: 999px; font-size: 0.85rem; font-weight: 600; color: #fff; }
+.wh-pill.vert { background: var(--vert); } .wh-pill.orange { background: var(--orange); }
+.wh-pill.rouge { background: var(--rouge); } .wh-pill.gris { background: var(--gris); }
+
+.wh-swot { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+.wh-swot div { background: #fff; padding: 0.7rem 0.9rem; border-top: 3px solid var(--c); }
+.wh-swot h4 { margin: 0 0 0.3rem; font-size: 1.02rem; }
+.wh-swot ul { margin: 0; padding-left: 1.1rem; font-size: 0.94rem; }
+
+.wh-note { color: var(--ink-2); font-size: 0.88rem; }
+a { color: var(--ocean); }
+
+@media (max-width: 640px) {
+  .wh-swot { grid-template-columns: 1fr; }
+  .wh-kpi .v { font-size: 1.6rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

@@ -1,0 +1,94 @@
+indicator,label,lo,hi,direction,transform
+sp_dyn_le00_in,Espérance de vie à la naissance,61.8578,83.90048780484,1,
+sh_dyn_mort,Mortalité des moins de 5 ans,2.5,77.775,-1,
+sh_sta_mmrt,Mortalité maternelle,0.47712125471966244,2.6844325649211536,-1,log
+sh_med_phys_zs,Médecins,0.0899,5.069899999999999,1,
+sh_xpd_chex_gd_zs,Dépenses courantes de santé,2.765857318,11.747601887999997,1,
+sh_xpd_oopc_ch_zs,Reste à charge des ménages,6.539957428,65.17250976799997,-1,
+sh_imm_meas,Vaccination rougeole,55.0,99.0,1,
+sh_h2o_smdw_zs,Eau potable gérée en sécurité,17.031361624495,100.0,1,
+sh_sta_smss_zs,Assainissement géré en sécurité,12.84633052272,99.29989590771999,1,
+pisa_math,PISA — mathématiques,343.95,536.2,1,
+pisa_read,PISA — compréhension de l'écrit,342.0,515.0,1,
+pisa_sci,PISA — sciences,359.85,528.4499999999999,1,
+se_adt_litr_zs,Alphabétisation des adultes,42.09083557414,99.85488597448,1,
+se_sec_enrr,Scolarisation secondaire (brute),37.631921430220004,126.12577743531997,1,
+se_ter_enrr,Scolarisation supérieure (brute),6.38034596445,107.62892297867,1,
+se_prm_cmpt_zs,Achèvement du primaire,59.167447565505,108.36020621039499,1,
+se_lpv_prim,Pauvreté des apprentissages,3.5447463989,94.61841773985,-1,
+se_xpd_totl_gd_zs,Dépense publique d'éducation,1.72696814211,7.62888894079,1,
+ny_gdp_pcap_pp_kd,"PIB par habitant (PPA, $ 2021 constants)",3.2911800551625796,4.89863747014751,1,log
+ny_gdp_mktp_kd_zg,Croissance du PIB réel,-0.92475065245,8.04645726335,1,
+fp_cpi_totl_zg,Inflation (écart à 2 %),0.17951974456000025,20.440502818079953,-1,target:2
+sl_uem_totl_zs,Taux de chômage,1.5104,18.53149999999999,-1,
+gc_dod_totl_gd_zs,Dette de l'administration centrale,17.94488703027,111.56857920822,-1,
+bn_cab_xoka_gd_zs,Solde courant,-19.739455033320002,16.41708825543999,1,
+gc_tax_totl_gd_zs,Recettes fiscales,6.62976029115,27.19261296431,1,
+ne_trd_gnfs_zs,Ouverture commerciale,33.522349708975,190.126632139325,1,
+cm_mkt_lcap_gd_zs,Capitalisation boursière,0.7627582071144817,2.33757304907845,1,log
+cm_mkt_trad_gd_zs,Valeur des actions échangées,-1.9187399676245132,2.2390385533717656,1,log
+fs_ast_prvt_gd_zs,Crédit intérieur au secteur privé,6.5396086858,137.50761973150006,1,
+fr_inr_rinr,Taux d'intérêt réel,0.4350397845,16.725290375984997,-1,target:2
+fr_inr_lndp,Marge d'intermédiation bancaire,0.95,15.713529459799998,-1,
+fi_res_totl_mo,Réserves de change,0.69264710237,13.435255853809995,1,
+dt_dod_dect_gn_zs,Dette extérieure,12.94709130283,115.79244960002498,-1,
+fx_own_totl_zs,Détention d'un compte (inclusion financière),25.01931321108,98.87033876528,1,
+ic_bus_ndns_zs,Densité de créations d'entreprises,-0.9208268405458645,1.2734107435781556,1,log
+bx_klt_dinv_wd_gd_zs,Investissements directs étrangers entrants,-2.03063853297,13.637324970449981,1,
+fr_inr_lend,Taux débiteur bancaire,4.194665833335,24.078268754224993,-1,
+it_net_bbnd_p2,Haut débit fixe,0.07921020928,46.34650365965498,1,
+eg_elc_accs_zs,Accès à l'électricité,41.510000000000005,100.0,1,
+prenforct_idea,Application prévisible des règles (IDEA),19.3445445,87.0407985,1,
+impadmin_idea,Administration impartiale (IDEA),19.4828355,86.5768785,1,
+en_ghg_co2_pc_ce_ar5,CO₂ par habitant,0.057471691340000006,15.943416702569955,-1,
+en_ghg_co2_rt_gdp_pp_kd,Intensité carbone du PIB,0.0417427961,0.41628913359999997,-1,
+eg_fec_rnew_zs,Part des renouvelables,0.26500000000000024,82.725,1,
+ag_lnd_frst_zs,Couverture forestière,0.319185382705,74.70341269883,1,
+er_ptd_totl_zs,Aires protégées,0.1,40.04,1,
+er_h2o_fwst_zs,Stress hydrique,-0.41487504595847635,2.1268838936817174,-1,log
+sn_itk_defc_zs,Prévalence de la sous-alimentation,2.5,34.44500000000001,-1,
+ag_yld_crel_kg,Rendement céréalier,2.879115841370386,3.8922130070783596,1,log
+ag_prd_food_xd,Indice de production alimentaire,82.437,152.69899999999998,1,
+ag_lnd_arbl_ha_pc,Terres arables par habitant,-2.3227095230976786,-0.1858779090099289,1,log
+ag_lnd_irig_ag_zs,Terres agricoles irriguées,0.2469076033,46.2439681293,1,
+v2x_polyarchy,Démocratie électorale (V-Dem),0.12775,0.86275,1,
+v2x_libdem,Démocratie libérale (V-Dem),0.04125,0.7955000000000001,1,
+v2xel_frefair,Élections libres et équitables,0.0,0.954,1,
+v2x_freexp_altinf,Liberté d'expression et information alternative,0.0445,0.9462499999999999,1,
+v2x_civlib,Libertés civiles,0.1705,0.9472499999999999,1,
+demox_eiu,Indice de démocratie (EIU),19.43,89.6,1,
+fppart_idea,Liberté des partis politiques (IDEA),14.756212000000001,79.30051900000001,1,
+sg_gen_parl_zs,Femmes au parlement,4.23858474778,45.89999999998,1,
+v2x_rule,État de droit (V-Dem),0.0635,0.9835,1,
+v2xcl_rol,Égalité devant la loi et libertés individuelles,0.12625,0.97425,1,
+v2x_jucon,Contrôle judiciaire de l'exécutif,0.024,0.9575,1,
+v2jucomp,Respect des décisions de justice par le gouvernement,-2.51275,2.55875,1,
+v2exrescon,Respect de la Constitution par l'exécutif,-1.86275,2.18825,1,
+ajustice_idea,Accès à la justice (IDEA),29.8068975,86.27220399999999,1,
+judicindep_idea,Indépendance judiciaire (IDEA),15.1438925,85.301159,1,
+vc_ihr_psrc_p5,Homicides volontaires,-0.45510916567071524,1.600730060605193,-1,log
+corruption_perception_index_cpi,Indice de perception de la corruption,17.85,78.0,1,
+v2x_corr,Corruption politique (V-Dem),0.025,0.89225,-1,
+v2x_execorr,Corruption de l'exécutif,0.02,0.901,-1,
+v2x_pubcorr,Corruption du secteur public,0.01875,0.90175,-1,
+abscorrup_idea,Absence de corruption (IDEA),19.035801499999998,86.2431985,1,
+iq_cpa_tran_xq,CPIA transparence et redevabilité,1.475,4.0,1,
+vc_btl_deth,Morts au combat,-1.3973012652686152,2.07973337903919,-1,log
+pisec_idea,Intégrité et sécurité des personnes (IDEA),23.242231,79.276794,1,
+v2x_clphy,Protection contre la violence d'État (V-Dem),0.12175,0.981,1,
+ms_mil_xpnd_gd_zs,Dépenses militaires,0.42132751083000003,6.149339980865002,-1,
+int_refg_origin_prc,Réfugiés originaires du pays,-3.0,0.5220091505839902,-1,log
+hapiscore_whr,Score de bonheur (World Happiness Report),35.14,70.88,1,
+si_pov_gini,Indice de Gini,25.7,49.635,-1,
+si_pov_dday,Pauvreté à 3 $/jour,0.0,63.54499999999995,-1,
+sl_uem_1524_zs,Chômage des jeunes,2.8569,37.89039999999999,-1,
+sl_tlf_cact_fe_zs,Participation des femmes au marché du travail,19.0633,74.47519999999997,1,
+sh_sta_suic_p5,Taux de suicide,1.22,20.919999999999977,-1,
+gb_xpd_rsdv_gd_zs,Dépense de R&D,0.05246,3.289239999999999,1,
+ip_pat_resd,Brevets déposés par des résidents,-0.7309493272448121,2.4895248434258153,1,log
+ip_jrn_artc_sc,Articles scientifiques,0.624820095745686,3.238323082544265,1,log
+tx_val_tech_mf_zs,Exportations high-tech,0.110442414575,46.80529704935,1,
+it_net_user_zs,Utilisateurs d'Internet,18.1437948195,98.141110992,1,
+st_int_arvl,Arrivées de touristes internationaux,0.9100818811912652,3.8879225854102435,1,log
+st_int_rcpt_xp_zs,Recettes touristiques,0.55820112298,64.3035271926199,1,
+st_int_rcpt_cd,Recettes touristiques par habitant,0.19153507777235998,3.739671642681436,1,log

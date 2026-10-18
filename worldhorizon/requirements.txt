@@ -1,0 +1,12 @@
+streamlit>=1.50
+pandas>=2.2
+numpy>=1.26
+plotly>=5.24
+scikit-learn>=1.5
+joblib>=1.4
+matplotlib>=3.9
+reportlab>=4.2
+requests>=2.32
+yfinance>=0.2.50
+lxml>=5.0
+pyreadr>=0.5

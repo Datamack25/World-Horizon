@@ -1,0 +1,31 @@
+run_at,agent,series_ok,series_total,rows,countries,failed,kept,origins
+2026-10-18T12:46:22Z,sante,9,9,59248,217,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:23Z,education,9,9,23485,212,,,data/ref/pisa.csv (OCDE PISA 2022);github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:23Z,economie,8,8,54738,215,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:23Z,finance,8,8,35104,192,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:24Z,business,7,7,43420,217,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:24Z,environnement,7,7,40865,216,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:24Z,agriculture,6,6,44110,211,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:25Z,gouvernance,8,8,62173,197,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators;github:vdeminstitute/vdemdata (V-Dem v16)
+2026-10-18T12:46:38Z,impunite,9,9,67747,214,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators;github:vdeminstitute/vdemdata (V-Dem v16)
+2026-10-18T12:46:38Z,corruption,6,6,39294,189,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators;github:vdeminstitute/vdemdata (V-Dem v16)
+2026-10-18T12:46:38Z,securite,6,6,38191,216,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators;github:vdeminstitute/vdemdata (V-Dem v16)
+2026-10-18T12:46:39Z,social,6,6,24528,198,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:39Z,innovation,6,6,25428,213,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:39Z,tourisme,4,4,19754,211,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T12:46:39Z,_aux,17,17,196321,219,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators;github:vdeminstitute/vdemdata (V-Dem v16)
+2026-10-18T13:03:38Z,sante,9,9,59248,217,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:03:39Z,education,9,9,23485,212,,,data/ref/pisa.csv (OCDE PISA 2022);github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:03:39Z,economie,8,8,54738,215,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:03:39Z,finance,8,8,35104,192,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:03:40Z,business,7,7,43420,217,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:03:40Z,environnement,7,7,40865,216,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:03:41Z,agriculture,6,6,44110,211,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:13Z,gouvernance,3,8,62173,197,v2x_libdem;v2xel_frefair;v2x_polyarchy;v2x_civlib;v2x_freexp_altinf,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:13Z,impunite,4,9,67747,214,v2x_rule;v2xcl_rol;v2jucomp;v2exrescon;v2x_jucon,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:14Z,corruption,3,6,39294,189,v2x_corr;v2x_pubcorr;v2x_execorr,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:14Z,securite,5,6,38191,216,v2x_clphy,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:14Z,social,6,6,24528,198,,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:15Z,innovation,6,6,25428,213,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:15Z,tourisme,4,4,19754,211,,,github:open-numbers/ddf--world_bank--world_development_indicators
+2026-10-18T13:04:15Z,_aux,10,17,196321,219,v2cacamps;v2smpolsoc;v2x_regime;v2xel_frefair;v2x_polyarchy;v2xnp_regcorr;v2x_execorr,,github:open-numbers/ddf--gapminder--fasttrack;github:open-numbers/ddf--world_bank--world_development_indicators

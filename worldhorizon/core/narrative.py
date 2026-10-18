@@ -328,6 +328,30 @@ def swot(st, iso: str, pillars: dict) -> dict:
             T.append(f"Stress hydrique sévère ({fnum(ws.iloc[0].value, 0)} % des ressources prélevées)")
     S = sorted(S, key=lambda x: -float(x.split("(")[-1].split("/")[0]))[:6]
     W = sorted(W, key=lambda x: float(x.split("(")[-1].split("/")[0]))[:6]
+    if not S:
+        # Aucun domaine ≥ 65 : on montre les atouts relatifs (meilleurs domaines du pays)
+        # et les indicateurs où le pays fait mieux que la médiane de sa région.
+        scored = sorted((p for p in pillars.values() if np.isfinite(p["score"])), key=lambda p: -p["score"])
+        S = [f"Atout relatif : {p['nom']} ({fnum(p['score'], 0)}/100)" for p in scored[:3]]
+        best = []
+        for p in pillars.values():
+            t = p["indicateurs"]
+            if not len(t):
+                continue
+            for _, r in t.dropna(subset=["score", "reg_median"]).iterrows():
+                better = (r.value > r.reg_median) if r.direction > 0 else (r.value < r.reg_median) if r.direction < 0 else False
+                if better:
+                    best.append((r.score, f"Mieux que la médiane régionale : {r.label} — {fval(r.code, r.value)} "
+                                          f"({int(r.year)}) contre {fval(r.code, r.reg_median)}"))
+        S += [txt for _, txt in sorted(best, key=lambda t: -t[0])[:3]]
+    if not any(np.isfinite(p["score"]) for p in pillars.values()):
+        c = st.countries.set_index("iso3").loc[iso]
+        msg = "Aucune donnée internationale disponible pour ce territoire"
+        if c.get("name_en") and "former" in str(c["name_en"]).lower():
+            msg = "État qui n'existe plus : ses données sont rattachées aux pays qui lui ont succédé"
+        elif iso in ("GLP", "MTQ", "GUF", "REU", "MYT", "SPM", "WLF"):
+            msg = "Territoire français : les bases internationales l'incluent dans les chiffres de la France"
+        return dict(Forces=[msg], Faiblesses=[msg], Opportunités=[msg], Menaces=[msg])
     return dict(Forces=S or ["—"], Faiblesses=W or ["—"], Opportunités=O or ["—"], Menaces=T or ["—"])
 
 

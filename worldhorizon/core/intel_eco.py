@@ -416,9 +416,11 @@ def note_synthese(nom: str, res: dict, iso: str, al: list[str]) -> str:
 
 
 # =========================================================================== panneaux
-def _no_data():
-    st.info("Les données d'intelligence économique n'ont pas encore été collectées.")
-    update_button("first")
+def _no_data(key: str = "first", bouton: bool = True):
+    st.info("Les données d'intelligence économique n'ont pas encore été collectées."
+            + ("" if bouton else " Utilisez le bouton de collecte en haut de la page."))
+    if bouton:
+        update_button(key)
 
 
 def update_button(key: str):
@@ -443,7 +445,7 @@ def country_panel(store, iso: str, res: dict | None = None, key: str = "p"):
     """Analyse IE d'un pays : réutilisée dans la page dédiée et dans l'onglet de « Analyse d'un pays »."""
     res = res or compute(store)
     if res is None:
-        _no_data(); return
+        _no_data(f"panel_{key}"); return
     nom = store.name(iso)
     b = res["blocs"].loc[iso]; v = res["values"].loc[iso]; y = res["years"].loc[iso]
     s = res["indice"].get(iso)
@@ -516,6 +518,8 @@ def page(store, iso_list: list[str], labels: dict[str, str]):
                 "<p>Veille · sécurité économique · influence. Qui est puissant, qui est vulnérable, qui dépend de qui : "
                 "rente, endettement, énergie, alimentation, technologie et gouvernance, pays par pays.</p></div>", unsafe_allow_html=True)
     res = compute(store)
+    if res is None:
+        _no_data("page_top")
     tabs = st.tabs(["🌍 Carte mondiale", "🔎 Analyse pays", "⛓️ Dépendances", "⚖️ Comparaison",
                     "🧭 Grilles d'analyse", "📚 Sources", "🎓 Méthode"])
     if res is not None:
@@ -523,7 +527,7 @@ def page(store, iso_list: list[str], labels: dict[str, str]):
         iso = st.session_state.get("ie_iso") or (cur if cur in iso_list else ("FRA" if "FRA" in iso_list else iso_list[0]))
     with tabs[0]:
         if res is None:
-            _no_data()
+            _no_data(bouton=False)
         else:
             ev = st.plotly_chart(_world_map(store, res), width="stretch", on_select="rerun", selection_mode="points",
                                  key="ie_map", config={"displayModeBar": False, "scrollZoom": False})
@@ -547,7 +551,7 @@ def page(store, iso_list: list[str], labels: dict[str, str]):
             st.session_state["ie_iso"] = iso
             country_panel(store, iso, res, key="page")
         else:
-            _no_data()
+            _no_data(bouton=False)
     with tabs[2]:
         if res is not None:
             st.caption(f"Pays : {store.name(iso)} (changez-le dans l'onglet « Analyse pays »).")
@@ -576,7 +580,8 @@ def page(store, iso_list: list[str], labels: dict[str, str]):
         if IE_LOG.exists():
             with st.expander("Journal des collectes"):
                 st.dataframe(pd.read_csv(IE_LOG).iloc[::-1].head(40), hide_index=True, width="stretch")
-        update_button("page")
+        if res is not None:
+            update_button("page")
 
 
 # =========================================================================== grilles, sources, méthode

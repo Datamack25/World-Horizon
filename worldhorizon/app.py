@@ -307,7 +307,7 @@ def page_country():
     ]), unsafe_allow_html=True)
 
     tabs = st.tabs(["Synthèse", "Tous les aspects", "Avenir 2050–2100", "Politique & élections", "Marchés",
-                    "Actualités", "Avis d'expert", "Rapports PDF & images", "Sources"])
+                    "Actualités", "Avis d'expert", "Rapports PDF & images", "Sources", "🕵️ Intelligence économique"])
     with tabs[0]:
         a, b = st.columns([1.15, 1])
         with a:
@@ -549,6 +549,18 @@ def page_country():
         for a in AGENTS:
             st.markdown(f"- {a['nom']} : " + " · ".join(f"[{n}]({u})" for n, u in an["piliers"][a["id"]]["experts"]))
 
+    with tabs[9]:
+        from core import intel_eco as ie
+        ie.country_panel(store, iso, key="pays")
+        with st.expander("⛓️ Dépendances sur 30 ans"):
+            ie.dependencies_panel(store, iso, key="pays")
+        st.caption("Carte mondiale, comparaisons, grilles d'analyse et bibliothèque de sources : page « Intelligence économique ».")
+
+
+def page_intel_eco():
+    from core import intel_eco as ie
+    ie.page(store, ISO_LIST, LABELS)
+
 
 def page_compare():
     st.markdown("<div class='wh-hero'><h1 class='wh-title'>Comparer des pays</h1></div>", unsafe_allow_html=True)
@@ -711,12 +723,13 @@ PAGES = {
     "pays": st.Page(page_country, title="Analyse d'un pays", icon="🔎", url_path="pays"),
     "compare": st.Page(page_compare, title="Comparer", icon="⚖️", url_path="comparer"),
     "elections": st.Page(page_elections, title="Élections & risque", icon="🗳️", url_path="elections"),
+    "ie": st.Page(page_intel_eco, title="Intelligence économique", icon="🕵️", url_path="intelligence-economique"),
     "future": st.Page(page_future, title="Prospective 2100", icon="🔭", url_path="prospective"),
     "rank": st.Page(page_rankings, title="Classements", icon="📊", url_path="classements"),
     "data": st.Page(page_data, title="Données & méthode", icon="🗄️", url_path="donnees"),
 }
 FUNCS = {"home": page_home, "pays": page_country, "compare": page_compare, "elections": page_elections,
-         "future": page_future, "rank": page_rankings, "data": page_data}
+         "ie": page_intel_eco, "future": page_future,"rank": page_rankings, "data": page_data}
 nav = st.navigation(list(PAGES.values()))
 sidebar()
 if st.session_state.get("_page") in FUNCS:   # utilisé par les tests automatiques (streamlit.testing)
